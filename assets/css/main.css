@@ -511,7 +511,6 @@ a:hover {
 .project-title a {
   text-decoration: none;
   display: block;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
 .project-name {
