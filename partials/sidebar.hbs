@@ -1,7 +1,7 @@
 <div class="sidebar" role="aside" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <header class="header" role="banner">
         {{! The logo of the blog }}
-        <a href="/"><img id="blog" class="logo" src="{{@blog.logo}}"></a>
+        {{#if @blog.logo}}<a href="/"><img id="blog" class="logo" src="{{@blog.logo}}"></a>{{/if}}
 
         {{! The title of the blog }}
         <h1 class="title"><a href="/">{{@blog.title}}</a></h1>
@@ -25,6 +25,5 @@
     </header>
 
     <footer class="site-footer">
-        <section class="copyright">{{> "copyright"}}</section>
     </footer>
 </div>
