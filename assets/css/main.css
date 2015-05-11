@@ -466,6 +466,10 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.post-content{
+  font-size: .9em;
+}
+
 .content .post .post-title {
   margin: 0;
 }
