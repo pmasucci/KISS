@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 700;
   src: local("Lora Bold"), local("OpenSans-Bold"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff");
-}
+} */
 
 @font-face {
   font-family: 'Roboto';
@@ -21,7 +21,7 @@
   font-weight: 400;
   src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format("woff");
 }
-*/
+
 
 @font-face {
   font-family: 'kiss';
@@ -89,7 +89,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.25em;
   line-height: 1.45em;
   color: #3A4145;
@@ -112,7 +112,7 @@ h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
 }
 
 h1 a, h2 a, h3 a,
@@ -530,7 +530,7 @@ a:hover {
   width: 100%;
   max-width: 800px;
   margin: 3em 0px;
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
   font-size: 0.9rem;
   color: #9EABB3;
   text-align: center;
@@ -545,7 +545,7 @@ a:hover {
   bottom: 1em;
   left: 1em;
   right: 1em;
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
   font-size: .7rem;
   line-height: 1.4em;
   color: #e6e9eb;
