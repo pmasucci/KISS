@@ -398,14 +398,14 @@ a:hover {
   color: white;
   text-decoration: none;
   margin: 0;
-  line-height: 1.1em;
+  line-height: .9em;
 }
 
 .sidebar .description {
   font-size: .9em;
   font-style: italic;
   margin: 1em 0 1em 0;
-  line-height: 0.9em;
+  line-height: 1.1em;
 }
 
 .sidebar .footer {
@@ -521,7 +521,6 @@ a:hover {
 }
 
 .project-description {
-  margin-left: 0.6em;
   font-size: smaller;
 }
 /* End of Project Page */
