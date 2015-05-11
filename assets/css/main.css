@@ -398,6 +398,7 @@ a:hover {
   color: white;
   text-decoration: none;
   margin: 0;
+  line-height: 1.1em;
 }
 
 .sidebar .description {
